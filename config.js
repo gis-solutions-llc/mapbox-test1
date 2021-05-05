@@ -2,7 +2,7 @@ const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
     "pk.eyJ1IjoiZ2lzc29sdXRpb25zbGxjbWFwcyIsImEiOiJjamxpMzk4OWcwOWJuM2tvMnBoMXV3OXFqIn0.LCDlwzOBg3XXOiWWHf7Xgw",
-  CSV: "Sample_Data.csv",
+  CSV: "Points.csv",
   center: [-120.234, 47.398],
   zoom: 6,
   title: "Mapbox Test1",
