@@ -7,7 +7,7 @@ const config = {
   zoom: 6,
   title: "Mapbox Test1",
   description:
-    "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
+    "This is a sample map",
   sideBarInfo: ["Location_Name", "Address", "Phone"],
   popupInfo: ["Location_Name"],
   filters: [
