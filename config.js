@@ -2,7 +2,13 @@ const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
     "pk.eyJ1IjoiZ2lzc29sdXRpb25zbGxjbWFwcyIsImEiOiJjamxpMzk4OWcwOWJuM2tvMnBoMXV3OXFqIn0.LCDlwzOBg3XXOiWWHf7Xgw",
-  CSV: './points.csv',
+ $(document).ready(function () {
+      $.ajax({
+        type: "GET",
+        //YOUR TURN: Replace with csv export link
+        url: 'https://docs.google.com/spreadsheets/d/1sZfZa0mPQMFXC5eP-s10p-RV-K7ewuDzKKVNGbQxOQA/edit?usp=sharing',
+        dataType: "text",
+        success: function (csvData) { makeGeoJSON(csvData); }
   center: [-120.234, 47.398],
   zoom: 6,
   title: "Mapbox Test",
