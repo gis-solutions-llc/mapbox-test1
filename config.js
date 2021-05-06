@@ -1,11 +1,11 @@
 const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
-    "pk.eyJ1IjoiZ2lzc29sdXRpb25zbGxjbWFwcyIsImEiOiJjamxpMzk4OWcwOWJuM2tvMnBoMXV3OXFqIn0.LCDlwzOBg3XXOiWWHf7Xgw",
+    "pk.eyJ1IjoiZ2lzc29sdXRpb25zbGxjbWFwcyIsImEiOiJjamw4Y2RiMDAweGx4M2txb3NxZnBxeDFoIn0.MfwIqWM5qlGDkyDOpXmQFQ",
  CSV: "./points.csv",
   center: [-120.234, 47.398],
   zoom: 6,
-  title: "Mapbox Test2",
+  title: "Mapbox Test22",
   description:
     "This is a sample map",
   sideBarInfo: ["Location_Name", "Address", "Phone"],
