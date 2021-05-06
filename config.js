@@ -5,7 +5,7 @@ const config = {
  CSV: "./points.csv",
   center: [-120.234, 47.398],
   zoom: 6,
-  title: "Mapbox Test",
+  title: "Mapbox Test2",
   description:
     "This is a sample map",
   sideBarInfo: ["Location_Name", "Address", "Phone"],
